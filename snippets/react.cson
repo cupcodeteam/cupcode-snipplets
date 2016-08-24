@@ -1,0 +1,20 @@
+'.source.jsx':
+  'React Create Component':
+    'prefix': 'rcc',
+    'body': """
+    import React, { PropTypes } from 'react'
+    class ${1:ComponentName} extends React.Component {
+
+      constructor(props) {
+         super(props);
+       }
+
+      render () {
+        return (
+          ${2}
+        )
+      }
+    }
+
+    export default ${1:ComponentName};
+    """
