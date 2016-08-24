@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "Cupcode's Atom Snipplets Package",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "react",
     "es6"
   ],
   "author": "Nantaphop Phuengphae",
+  "repository": "https://github.com/cupcodeteam/cupcode-snipplets.git",
   "license": "ISC",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
